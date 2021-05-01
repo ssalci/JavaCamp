@@ -1,0 +1,11 @@
+package sample3;
+
+public class PersonData {
+	public int id;
+	public String code;
+	public String firstName;
+	public String lastName;
+
+	public PersonData() {
+	}
+}

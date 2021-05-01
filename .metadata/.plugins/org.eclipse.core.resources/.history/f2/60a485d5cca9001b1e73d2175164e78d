@@ -1,0 +1,27 @@
+package sample3;
+
+public class Customer extends Person {
+	private int customerId;
+	private String customerCode;
+	
+public Customer() {
+System.out.println("Customer created."+ this.getFirstName());		
+}
+
+public int getCustomerId() {
+	return customerId;
+}
+
+public void setCustomerId(int customerId) {
+	this.customerId = customerId;
+}
+
+public String getCustomerCode() {
+	return customerCode;
+}
+
+public void setCustomerCode(String customerCode) {
+	this.customerCode = customerCode;
+}
+
+}
